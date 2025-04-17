@@ -1,5 +1,6 @@
 {
   "name": "metamask-mobile-prebuilds",
+  "homepage": "https://metamask.github.io/metamask-mobile-prebuilds",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
