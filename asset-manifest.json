@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/metamask-mobile-prebuilds/static/css/main.5c5f272d.css",
-    "main.js": "/metamask-mobile-prebuilds/static/js/main.58ab8219.js",
+    "main.js": "/metamask-mobile-prebuilds/static/js/main.bf6b1315.js",
     "static/js/453.2c73cb05.chunk.js": "/metamask-mobile-prebuilds/static/js/453.2c73cb05.chunk.js",
     "index.html": "/metamask-mobile-prebuilds/index.html",
     "main.5c5f272d.css.map": "/metamask-mobile-prebuilds/static/css/main.5c5f272d.css.map",
-    "main.58ab8219.js.map": "/metamask-mobile-prebuilds/static/js/main.58ab8219.js.map",
+    "main.bf6b1315.js.map": "/metamask-mobile-prebuilds/static/js/main.bf6b1315.js.map",
     "453.2c73cb05.chunk.js.map": "/metamask-mobile-prebuilds/static/js/453.2c73cb05.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c5f272d.css",
-    "static/js/main.58ab8219.js"
+    "static/js/main.bf6b1315.js"
   ]
 }
