@@ -1,23 +1,42 @@
-import logo from "./logo.svg";
-import "./App.css";
+import { useCallback } from "react";
+import BuildGroupHeader from "./components/BuildGroupHeader";
+import BuildGroupList from "./components/BuildGroupList";
+import Button from "./components/Button";
+import useGetBuildGroups from "./hooks/useGetBuildGroups";
+
+import "./styles/App.css";
 
 function App() {
+  const { buildGroups, fetchBuildGroups, isLoading, error } =
+    useGetBuildGroups();
+
+  const renderAllBuilds = useCallback(() => {
+    return buildGroups.map(({ title, builds }) => (
+      <div key={title}>
+        <BuildGroupHeader title={title} />
+        <BuildGroupList builds={builds} />
+      </div>
+    ));
+  }, [buildGroups]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.j</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className="app-title">
+        {"MetaMask Mobile - Expo Prebuilds for Development"}
+      </h1>
+      <div>
+        {"This page shows all the prebuilds for the MetaMask Mobile app."}
+      </div>
+      <Button
+        disabled={isLoading}
+        className={"fetch-button"}
+        onClick={fetchBuildGroups}
+      >
+        {"Fetch latest builds"}
+      </Button>
+      {error && <div className="error">{error}</div>}
+      <hr className="divider" />
+      {renderAllBuilds()}
     </div>
   );
 }
