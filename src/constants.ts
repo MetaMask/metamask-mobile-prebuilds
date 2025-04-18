@@ -1,5 +1,8 @@
 import { BuildGroupByType, BuildType } from "./types";
 
+export const ERROR_SUGGESTION =
+  "Try again or contact the @mobile-platform-team for support.";
+
 /**
  * URL of the build JSON file
  */

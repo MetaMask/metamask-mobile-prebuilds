@@ -1,12 +1,14 @@
 import { useCallback } from "react";
 import BuildGroupHeader from "./components/BuildGroupHeader";
 import BuildGroupList from "./components/BuildGroupList";
+import Button from "./components/Button";
 import useGetBuildGroups from "./hooks/useGetBuildGroups";
 
 import "./styles/App.css";
 
 function App() {
-  const { buildGroups, fetchBuildGroups } = useGetBuildGroups();
+  const { buildGroups, fetchBuildGroups, isLoading, error } =
+    useGetBuildGroups();
 
   const renderAllBuilds = useCallback(() => {
     return buildGroups.map(({ title, builds }) => (
@@ -25,10 +27,15 @@ function App() {
       <div>
         {"This page shows all the prebuilds for the MetaMask Mobile app."}
       </div>
-      <button className="fetch-button" onClick={fetchBuildGroups}>
+      <Button
+        disabled={isLoading}
+        className={"fetch-button"}
+        onClick={fetchBuildGroups}
+      >
         {"Fetch latest builds"}
-      </button>
-      <hr />
+      </Button>
+      {error && <div className="error">{error}</div>}
+      <hr className="divider" />
       {renderAllBuilds()}
     </div>
   );
