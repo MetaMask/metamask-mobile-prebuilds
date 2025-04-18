@@ -25,6 +25,14 @@
   },
   "ANDROID_DEV": {
     "title": "Expo Android builds for both emulators and physical devices",
-    "builds": []
+    "builds": [
+      {
+        "id": "build-12324",
+        "version": "1.0.0",
+        "timestamp": 1710422400000,
+        "url": "https://example.com/build.ipa",
+        "buildNumber": "45623"
+      }
+    ]
   }
 }
