@@ -22,10 +22,10 @@ function App() {
   return (
     <div className="App">
       <h1 className="app-title">
-        {"MetaMask Mobile - Expo Prebuilds for Development"}
+        {"MetaMask Mobile - Expo prebuilds for development"}
       </h1>
       <div>
-        {"This page shows all the prebuilds for the MetaMask Mobile app."}
+        {"This page shows all the prebuilds for the MetaMask mobile app."}
       </div>
       <Button
         disabled={isLoading}

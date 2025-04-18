@@ -1,10 +1,14 @@
 {
-  "builds": [
-    {
-      "platform": "iOS",
-      "version": "1.0.0",
-      "url": "https://app.bitrise.io/...",
-      "date": "2024-03-20T10:00:00Z"
-    }
-  ]
+  "IOS_SIMULATOR_DEV": {
+    "title": "Expo iOS builds for simulators",
+    "builds": []
+  },
+  "IOS_PHYSICAL_DEV": {
+    "title": "Expo iOS builds for physical devices",
+    "builds": []
+  },
+  "ANDROID_DEV": {
+    "title": "Expo Android builds for both emulators and physical devices",
+    "builds": []
+  }
 }
