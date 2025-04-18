@@ -13,7 +13,15 @@
   },
   "IOS_PHYSICAL_DEV": {
     "title": "Expo iOS builds for physical devices",
-    "builds": []
+    "builds": [
+      {
+        "id": "build-1234",
+        "version": "1.0.0",
+        "timestamp": 1710422400000,
+        "url": "https://example.com/build.ipa",
+        "buildNumber": "4562"
+      }
+    ]
   },
   "ANDROID_DEV": {
     "title": "Expo Android builds for both emulators and physical devices",
