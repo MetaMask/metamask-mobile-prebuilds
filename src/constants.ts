@@ -7,7 +7,7 @@ export const ERROR_SUGGESTION =
  * URL of the build JSON file
  */
 export const BUILD_JSON_URL =
-  "https://raw.githubusercontent.com/MetaMask/metamask-mobile-prebuilds/main/builds.json";
+  "https://raw.githubusercontent.com/MetaMask/metamask-mobile-prebuilds/builds/builds.json";
 
 /**
  * Fake builds
