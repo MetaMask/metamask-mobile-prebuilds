@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/metamask-mobile-prebuilds/static/css/main.151f7969.css",
-    "main.js": "/metamask-mobile-prebuilds/static/js/main.fe0b518b.js",
+    "main.css": "/metamask-mobile-prebuilds/static/css/main.f1559365.css",
+    "main.js": "/metamask-mobile-prebuilds/static/js/main.fa51eeb2.js",
     "static/js/453.2c73cb05.chunk.js": "/metamask-mobile-prebuilds/static/js/453.2c73cb05.chunk.js",
     "index.html": "/metamask-mobile-prebuilds/index.html",
-    "main.151f7969.css.map": "/metamask-mobile-prebuilds/static/css/main.151f7969.css.map",
-    "main.fe0b518b.js.map": "/metamask-mobile-prebuilds/static/js/main.fe0b518b.js.map",
+    "main.f1559365.css.map": "/metamask-mobile-prebuilds/static/css/main.f1559365.css.map",
+    "main.fa51eeb2.js.map": "/metamask-mobile-prebuilds/static/js/main.fa51eeb2.js.map",
     "453.2c73cb05.chunk.js.map": "/metamask-mobile-prebuilds/static/js/453.2c73cb05.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.151f7969.css",
-    "static/js/main.fe0b518b.js"
+    "static/css/main.f1559365.css",
+    "static/js/main.fa51eeb2.js"
   ]
 }
