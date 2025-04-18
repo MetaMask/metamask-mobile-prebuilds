@@ -15,6 +15,13 @@
     "title": "Expo iOS builds for physical devices",
     "builds": [
       {
+        "id": "build-123a24",
+        "version": "2.0.0",
+        "timestamp": 1710422400000,
+        "url": "https://example.com/build.ipa",
+        "buildNumber": "456322"
+      },
+      {
         "id": "build-1234",
         "version": "1.0.0",
         "timestamp": 1710422400000,
