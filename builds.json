@@ -3,6 +3,13 @@
     "title": "Expo iOS builds for simulators",
     "builds": [
       {
+        "id": "build-123a224",
+        "version": "23.0.0",
+        "timestamp": 1710422400000,
+        "url": "https://example.com/build.ipa",
+        "buildNumber": "4563232"
+      },
+      {
         "id": "build-123",
         "version": "1.0.0",
         "timestamp": 1710422400000,
