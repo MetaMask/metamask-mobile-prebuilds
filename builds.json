@@ -23,6 +23,13 @@
     "builds": [
       {
         "id": "build-123a24",
+        "version": "65.0.0",
+        "timestamp": 1710422400000,
+        "url": "https://example.com/build.ipa",
+        "buildNumber": "4566322"
+      },
+      {
+        "id": "build-123a24",
         "version": "2.0.0",
         "timestamp": 1710422400000,
         "url": "https://example.com/build.ipa",
